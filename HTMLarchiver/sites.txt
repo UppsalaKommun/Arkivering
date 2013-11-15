@@ -1,0 +1,14 @@
+# =====================================================================================================================  
+# Siter som ska arkiveras.  
+#  
+# Rader som inleds med # räknas som kommentarer, och bortses ifrån.  
+#  
+# Raderna i denna fil ska vara på formen sitenamn url filter.  
+# Sitenamnet används i sökvägen där filerna sparas, url är sitens startplats, och filter används för vissa specialfall.  
+# För information om filter, se dokumentationen för filter i HTTrack.  
+# =====================================================================================================================  
+
+intranet.doman.se intranet.doman.se
+www.externwebb.se www.externwebb.se
+www.annanwebb.se www.externwebb.se/annanwebb/ +www.externwebb.se/*/annanwebb/* 
+
