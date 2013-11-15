@@ -61,15 +61,8 @@ Det finns stöd i cntlm för att använda en hashad version av lösenordet istä
 
 Username	*******
 Domain		*******
-#Password	...
-# NOTE: Use plaintext password only at your own risk
-# Use hashes instead. You can use a "cntlm -M" and "cntlm -H"
-# command sequence to get the right config for your environment.
-# See cntlm man page
-# Example secure config shown below.
 PassLM          406983BDD903209AE4591916CE0987DB
 PassNT          610C690CBAA98CCB93C937773E7A54BA
-### Only for user 'testuser', domain 'corp-uk'
 PassNTLMv2      8B539ADEF22D89BAD522048F2F8B5586
 
 Se manualen till cntlm för mer information.
